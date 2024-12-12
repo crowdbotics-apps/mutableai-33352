@@ -62,8 +62,8 @@ if AS_BUCKET_NAME:
     AS_STATIC_CONTAINER = env.str("AS_STATIC_CONTAINER", "static")
     AS_MEDIA_CONTAINER = env.str("AS_MEDIA_CONTAINER", "media")
     AZURE_URL_EXPIRATION_SECS = env.int("AZURE_URL_EXPIRATION_SECS", 3600)
-    DEFAULT_FILE_STORAGE = "{appname}.storage_backends.AzureMediaStorage"
-    STATICFILES_STORAGE = "{appname}.storage_backends.AzureStaticStorage"
+    DEFAULT_FILE_STORAGE = "mutableai_33352.storage_backends.AzureMediaStorage"
+    STATICFILES_STORAGE = "mutableai_33352.storage_backends.AzureStaticStorage"
 
 
 
